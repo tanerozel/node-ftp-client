@@ -114,6 +114,10 @@ client.connect(function () {
     }, function (result) {
         console.log(result);
     });
+    client.list("/",function(result)
+	   {
+		   console.log(result);
+	   });
 
 });
 ```
